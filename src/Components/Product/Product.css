@@ -1,0 +1,198 @@
+
+
+.title-products{
+    margin-top: 150px !important;
+    margin : 0.5vw 5vw ;
+    font-size: 40px;
+
+}
+
+
+.products-list{
+    width: 70vw;
+    margin: 0 auto;
+    padding: 5vw 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr) ;
+    gap:  30px ;
+}
+
+.product-card{
+
+    height: 394px;
+    
+}
+
+
+.img-block{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+
+   height: 75%; 
+   width: 22vw;
+   max-width: 400px;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: 11px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.infos-block{
+  margin: 20px 0;
+  padding: 0 10px;
+  height: 25%;
+  width: 90%;
+  border: none;
+  display: flex;
+ justify-content: space-between;
+ background: #cccbcb;
+ color: black;
+}
+
+
+.text-infos p{
+
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
+
+.product-title{
+    font-size: 12.5px;
+   
+   
+}
+
+.icons-favorites i{
+    color: #f1f1f1;
+    
+}
+
+
+
+
+
+
+
+.img-block img{
+    width: 150px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:1090px) {
+
+    .products-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .infos-block{
+        height: 20%;
+    }
+    .product-title{
+        font-size: 10px;
+    }
+
+    .product-price{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width:914px) {
+   
+
+    .product-title{
+        font-size: 9px;
+    }
+
+    .img-block{
+        height: 65%;
+    }
+
+    .img-block img{
+        width: 100px;
+    }
+
+}
+
+
+@media screen and (max-width:914px) {
+
+
+    .products-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .img-block{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+       height: 75%; 
+       width: 45vw;
+       max-width: 400px;
+       border: 1px solid rgba(0, 0, 0, 0.1);
+       border-radius: 11px;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    }
+
+    .img-block img{
+        width: 150px;
+    }
+
+
+
+
+
+  
+
+}
+
+
+@media screen and (max-width:480px){
+
+    .products-list{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+
+    .img-block{
+        width: 80vw;
+    }
+
+    .title-products{
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
